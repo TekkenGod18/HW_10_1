@@ -60,11 +60,5 @@ namespace HW_10_1
             double totalDegrees = Gradus + Min / 60 + Sec / 3600;
             return totalDegrees * Math.PI / 180;
         }
-
-        // Метод для отображения угла в понятном виде
-        public override string ToString()
-        {
-            return $"{Gradus}° {Min}' {Sec}\"";
-        }
     }
 }
